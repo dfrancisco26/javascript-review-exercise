@@ -27,6 +27,11 @@ console.log(`areaOfTriangle(5, 10) === 25 : ${areaOfTriangle(5, 10) === 25}`);
 function lessThan100(num1, num2) {
     return (num1 + num2 < 100);
 }
+
+
+
+
+
 console.log(`lessThan100(5, 10) === true : ${lessThan100(5, 10) === true}`);
 console.log(`lessThan100(100, 10) === false : ${lessThan100(100, 10) === false}`);
 
@@ -65,12 +70,19 @@ console.log(
 //    number of days for Feb. The default value for the year should be
 //    the current year
 
-function daysInMonth() {}
+function daysInMonth(month) {
+    if (month = 1, 3, 5, 7, 8, 10, 12){
+        
+    }
+
+}
+
 
 
 console.log(`daysInMonth(2) === 29: ${daysInMonth(2) === 29}`);
 console.log(`daysInMonth(3) === 31: ${daysInMonth(3) === 31}`);
-console.log(`daysInMonth(11) === 30: ${daysInMonth(11) === 30}`);
+console.log(`daysInMonth(11) === 30: ${daysInMonth(11) === 30}`)
+
 
 // Additional Practice
 // - [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004)
